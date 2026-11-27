@@ -1,26 +1,26 @@
 class Awmate < Formula
   desc "AWMate (Assistive Workmate) - the coding agent CLI"
   homepage "https://awmate.nxtgensec.org"
-  version "2.2.68"
+  version "2.2.69"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.68/awmate-cli-darwin-arm64"
-      sha256 "30202bb528b5607aa4e8552c6ea8f6a7dbe6fd0b055422ddf53d69e9336d1627"
+      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.69/awmate-cli-darwin-arm64"
+      sha256 "051fd8370b57ad399859ba30be899b4e596101120a460774b5be45d8eb29005e"
     else
-      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.68/awmate-cli-darwin-x64"
-      sha256 "a5f9c06b9f395fe5a203ed8aa0db8548598a5f6dd4d4f717684bd19ae7523c26"
+      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.69/awmate-cli-darwin-x64"
+      sha256 "7904fcd50950903aab09825ee98cf8e8a2873dfb1fe2504e27d5239e05ee57af"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.68/awmate-cli-linux-arm64"
-      sha256 "ec4ec791c8b1bde71470b3c1a81e654f89467dee727cb5bd652cbc2d90b7eb44"
+      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.69/awmate-cli-linux-arm64"
+      sha256 "2887dff19115579351e11e86fb7b83597f2d5a7228ea9ef12a93ea4c351a180c"
     else
-      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.68/awmate-cli-linux-x64"
-      sha256 "8b1623f63bf591c919761475f4be8a26f87fc8f9196628a1f5b7f4b3d46d64b5"
+      url "https://github.com/devnxtgensec/awmate/releases/download/v2.2.69/awmate-cli-linux-x64"
+      sha256 "0ccb1d8fe6c3944887f40c1145bdf7919e4eaa70996a7b16cdf994b237e8f27d"
     end
   end
 
